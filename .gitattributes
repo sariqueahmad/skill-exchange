@@ -1,0 +1,9 @@
+# Force GitHub to see TypeScript React files as Kotlin
+*.tsx linguist-language=Kotlin
+
+# Force GitHub to see standard TypeScript files as Java
+*.ts linguist-language=kotlin
+
+# don't Ignore HTML and CSS so they do mess up your percentages
+*.html linguist-detectable=true
+*.css linguist-detectable=true
